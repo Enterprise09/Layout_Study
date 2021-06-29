@@ -47,6 +47,10 @@ body {
 
 .nav {
     padding: 1px;
+    padding-left: 420px;
+    padding-right: 420px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(102, 102, 102);
     text-align: center;
     display: flex;
 }
@@ -54,9 +58,8 @@ body {
 .navItem {
     color: white;
     display: inline-block;
-    margin-left: 30px;
     margin-top: 40px;
-    font-size: 16px;
+    font-size: 15px;
     flex: 1;
 }
 
@@ -66,8 +69,47 @@ body {
 }
 
 .navMenuLogo {
-    width: 5%;
+    width: 25px;
     vertical-align: middle;
     background-color: white;
     border-radius: 5px;
+}
+
+.aside {
+    float: left;
+    width: 20%;
+    margin-left: 120px;
+}
+
+.profileLogo {
+    float: left;
+    width: 100%;
+}
+
+.profileText {
+    float: left;
+    color: rgb(92, 92, 92);
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.profileButton {
+    float: left;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.article {
+    float: left;
+    border: solid 1px rgb(102, 102, 102);
+    border-radius: 10px;
+    width: 60%;
+    height: 520px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+    padding: 23px;
 }
