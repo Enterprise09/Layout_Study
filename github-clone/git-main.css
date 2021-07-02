@@ -88,7 +88,8 @@ body {
 
 .profileText {
   float: left;
-  color: rgb(129, 129, 129);
+  width: 100%;
+  color: rgb(150, 149, 149);
   font-size: 23px;
   font-weight: 300;
   margin-top: 20px;
@@ -105,6 +106,68 @@ body {
   background-color: rgb(24, 24, 24);
   color: aliceblue;
   font-weight: 600;
+}
+
+.follow_box {
+  float: left;
+  color: rgb(150, 149, 149);
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.follow_text {
+  vertical-align: middle;
+}
+
+.follow_logo {
+  width: 6%;
+  vertical-align: middle;
+  background: white;
+  border-radius: 30px;
+}
+
+.star_logo {
+  width: 6%;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.company_box {
+  color: white;
+}
+
+.company_logo {
+  background-color: white;
+  width: 7%;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.company_text {
+  font-size: 14px;
+  font-weight: 300;
+  vertical-align: middle;
+}
+
+.location_box {
+  color: white;
+  margin-top: 5px;
+}
+
+.location_logo {
+  background-color: white;
+  width: 7%;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.location_text {
+  font-size: 14px;
+  font-weight: 300;
+  vertical-align: middle;
 }
 
 .article {
