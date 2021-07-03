@@ -79,6 +79,8 @@ body {
   float: left;
   width: 15%;
   margin-left: 340px;
+  position: relative;
+  top: -40px;
 }
 
 .profileLogo {
@@ -172,24 +174,24 @@ body {
 
 .article {
   float: left;
-  border: solid 1px rgb(102, 102, 102);
-  border-radius: 10px;
   width: 45%;
-  height: 520px;
+  color: white;
   margin-top: 40px;
   margin-left: 30px;
+}
+
+.readme_box {
+  border: solid 1px rgb(102, 102, 102);
+  height: 520px;
+  border-radius: 10px;
   margin-bottom: 30px;
-  color: white;
   padding: 23px;
 }
 
 .section {
-  float: left;
-  width: 45%;
-  height: 400px;
+  height: 350px;
   display: flex;
   flex-direction: column;
-  margin-left: 655px;
   font-size: 14px;
   font-weight: 300;
   color: white;
@@ -200,13 +202,51 @@ body {
   flex-direction: row;
   height: 30%;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.section_text {
+  font-size: 14px;
+  color: antiquewhite;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 .section_item {
   flex: 1;
-  margin-left: 15px;
-  margin-bottom: 15px;
   border: 1px solid rgb(102, 102, 102);
   border-radius: 8px;
   vertical-align: middle;
+  text-align: left;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.section_emptybox {
+  width: 15px;
+}
+
+.footer {
+  float: left;
+  display: flex;
+  width: 65%;
+  text-align: center;
+  margin-left: 280px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgb(150, 149, 149);
+  color: aliceblue;
+  font-size: 11px;
+}
+
+.footer_item {
+  flex: 1;
+}
+
+.footer_githublogo {
+  width: 3%;
+  background-color: white;
+  border-radius: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
