@@ -243,6 +243,11 @@ body {
   flex: 1;
 }
 
+.footer_item:hover {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
 .footer_githublogo {
   width: 3%;
   background-color: white;
