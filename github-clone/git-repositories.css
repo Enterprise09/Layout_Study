@@ -3,32 +3,41 @@
 }
 
 body {
-  background-color: lightslategray;
+  background-color: rgb(63, 63, 63);
   margin: 0px;
   display: flex;
+  flex-direction: column;
 }
 
 .header {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
   width: 100%;
+  padding: 15px;
+  padding-left: 25px;
   background-color: rgb(46, 46, 46);
 }
 
 .logoImage {
   background-color: white;
+  width: 1.4%;
   border-radius: 1000px;
-  margin-left: 23px;
-  margin-top: 5px;
-  vertical-align: middle;
 }
 
 .headerMenu {
-  display: inline-block;
+  display: flex;
+  flex: 1;
+  text-align: center;
 }
 
 .headerMenuItem {
   color: white;
-  display: inline-block;
-  margin-left: 20px;
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .headerMenuItem:hover {
@@ -36,10 +45,161 @@ body {
   cursor: pointer;
 }
 
+.header_emptyBox {
+  flex: 4.6;
+}
+
 .serchInput {
   border-radius: 7px;
+  margin-left: 20px;
   width: 220px;
   height: 25px;
-  margin-left: 20px;
-  display: inline-block;
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: gray solid 1px;
+}
+
+nav img {
+  width: 12%;
+  vertical-align: middle;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.navItem {
+  flex: 1;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}
+
+.nav_emptyBox {
+  flex: 6;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  color: rgb(184, 184, 184);
+  border-bottom: 1px solid red;
+}
+
+.main_contentBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.main_emptyBox {
+  flex: 10;
+}
+
+.aside {
+  flex: 1;
+  border: 1px solid red;
+}
+
+.aside .profileLogo {
+  width: 280px;
+}
+
+.aside .profileText {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.aside .profileButton {
+  background-color: rgb(190, 190, 190);
+  border-radius: 6px;
+  width: 100%;
+  height: 30px;
+}
+
+.aside .follow_box {
+  width: 100%;
+  color: white;
+}
+
+.follow_box img {
+  width: 20px;
+  background-color: white;
+  border-radius: 1000px;
+  vertical-align: middle;
+}
+
+.company_box {
+  color: white;
+}
+
+.company_box img {
+  width: 20px;
+  background-color: white;
+  border-radius: 1000px;
+  vertical-align: middle;
+}
+
+.location_box {
+  color: white;
+}
+
+.location_box img {
+  width: 20px;
+  background-color: white;
+  border-radius: 1000px;
+  vertical-align: middle;
+}
+
+.article {
+  flex: 13;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+
+.article .readme_box {
+  flex: 1;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.section {
+  flex: 1;
+}
+
+.footer {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer img {
+  width: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 1000px;
+}
+
+.footer .footer_item {
+  flex: 1;
+  color: white;
+  font-size: 11px;
+  border: 1px solid plum;
+}
+
+.footer .footer_emptyBox {
+  flex: 8;
+  border: 1px solid seagreen;
 }
