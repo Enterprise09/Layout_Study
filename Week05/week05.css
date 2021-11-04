@@ -1,0 +1,15 @@
+body {
+  background-color: antiquewhite;
+  border: 2px dashed darkslateblue;
+  padding: 20px;
+}
+
+img {
+  border: 2px solid darkblue;
+  padding: 10px;
+}
+
+h3,
+ol {
+  text-align: center;
+}
