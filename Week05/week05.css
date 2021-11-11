@@ -1,6 +1,6 @@
 body {
-  background-color: antiquewhite;
-  border: 2px dashed darkslateblue;
+  background-color: antiquewhite;  
+  border: 2px dashed darkslateblue;  
   padding: 20px;
 }
 
@@ -12,4 +12,8 @@ img {
 h3,
 ol {
   text-align: center;
+}
+
+.korea {
+  border: 2px solid red;
 }
