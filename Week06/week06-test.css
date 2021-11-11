@@ -1,0 +1,18 @@
+body {
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 40px;
+}
+
+.div1 {
+  background-color: aquamarine;
+  border: 3px solid blue;
+  border-radius: 30px;
+}
+
+.div2 {
+  background-color: coral;
+  border: 3px solid red;
+  border-radius: 30px;
+}
