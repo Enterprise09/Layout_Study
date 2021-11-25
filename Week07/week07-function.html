@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>week07-function</title>
+  </head>
+  <body>
+    <script>
+      let l1; //let으로 선언
+      l1 = 10;  // 변수 값을 저장 - 초기화
+      const print = function hello(){
+        console.log("hello world!");
+        l1 = 20 / 0;
+        // 연산자 : +, -, *, /, %
+        console.log("l1 = " + l1);
+      }
+    </script>
+    <button onclick="print()">클릭하세요</button>
+  </body>
+</html>
